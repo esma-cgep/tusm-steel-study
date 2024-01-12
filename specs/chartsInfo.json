@@ -1,0 +1,479 @@
+{
+  "sys-nrg-indigenous-supply": {
+    "seriesNames": [
+      "COA",
+      "GEO",
+      "MSW",
+      "NGA",
+      "NUC",
+      "SPV",
+      "WAT",
+      "WNO"
+    ],
+    "colorScale": [
+      "#080808",
+      "#E97369",
+      "#142458",
+      "#C0C0C0",
+      "#7D39C0",
+      "#EABE3B",
+      "#186BA1",
+      "#1AC9E6"
+    ],
+    "unit": "PJ",
+    "maxY": 5280,
+    "minY": 0
+  },
+  "sys-primary-energy-demand": {
+    "seriesNames": [
+      "COA",
+      "ELCC",
+      "GEO",
+      "MSW",
+      "NGA",
+      "NUC",
+      "SPV",
+      "WAT",
+      "WNO"
+    ],
+    "colorScale": [
+      "#080808",
+      "#587BF9",
+      "#E97369",
+      "#142458",
+      "#C0C0C0",
+      "#7D39C0",
+      "#EABE3B",
+      "#186BA1",
+      "#1AC9E6"
+    ],
+    "unit": "PJ",
+    "maxY": 5280,
+    "minY": -82
+  },
+  "sys-costs-annual": {
+    "seriesNames": [
+      "Cost_Act",
+      "Cost_Flo",
+      "Cost_Fom",
+      "Cost_Inv",
+      "Cost_ire"
+    ],
+    "colorScale": [
+      "#78B794",
+      "#B639AD",
+      "#D02FAA",
+      "#32A433",
+      "#274177"
+    ],
+    "unit": "MUSD",
+    "maxY": 80659,
+    "minY": -21049
+  },
+  "elc-price-electricity-max": {
+    "seriesNames": [
+      "ELCC"
+    ],
+    "colorScale": [
+      "#587BF9"
+    ],
+    "unit": "MUSD/PJ",
+    "maxY": 2339,
+    "minY": 0
+  },
+  "elc-price-electricity-mean": {
+    "seriesNames": [
+      "ELCC"
+    ],
+    "colorScale": [
+      "#587BF9"
+    ],
+    "unit": "MUSD/PJ",
+    "maxY": 2339,
+    "minY": 0
+  },
+  "elc-price-electricity-min": {
+    "seriesNames": [
+      "ELCC"
+    ],
+    "colorScale": [
+      "#587BF9"
+    ],
+    "unit": "MUSD/PJ",
+    "maxY": 2339,
+    "minY": 0
+  },
+  "elc-generation-type": {
+    "seriesNames": [
+      "ELE"
+    ],
+    "colorScale": [
+      "#9147E1"
+    ],
+    "unit": "PJ",
+    "maxY": 2227,
+    "minY": 0
+  },
+  "sys-emissions-co2": {
+    "seriesNames": [
+      "ENV_CO2_ELC"
+    ],
+    "colorScale": [
+      "#92B45C"
+    ],
+    "unit": "kt",
+    "maxY": 372675,
+    "minY": 0
+  },
+  "ind-iis-cap": {
+    "seriesNames": [
+      "IND_BF_BOF",
+      "IND_DRI_EAF",
+      "IND_EAF"
+    ],
+    "colorScale": [
+      "#3B3ACD",
+      "#E36A19",
+      "#8275C2"
+    ],
+    "unit": "Mt/a",
+    "maxY": 76,
+    "minY": 0
+  },
+  "elc-capacity": {
+    "seriesNames": [
+      "PRC_ELC_COA",
+      "PRC_ELC_GAS",
+      "PRC_ELC_GEO",
+      "PRC_ELC_HYD",
+      "PRC_ELC_MSW",
+      "PRC_ELC_NUC",
+      "PRC_ELC_OIL",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#080808",
+      "#C0C0C0",
+      "#E97369",
+      "#186BA1",
+      "#142458",
+      "#7D39C0",
+      "#E3600A",
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "GW",
+    "maxY": 240,
+    "minY": 0
+  },
+  "elc-consumption": {
+    "seriesNames": [
+      "PRC_ELC_COA",
+      "PRC_ELC_GAS",
+      "PRC_ELC_GEO",
+      "PRC_ELC_HYD",
+      "PRC_ELC_MSW",
+      "PRC_ELC_NUC",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#080808",
+      "#C0C0C0",
+      "#E97369",
+      "#186BA1",
+      "#142458",
+      "#7D39C0",
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "PJ",
+    "maxY": 5299,
+    "minY": 0
+  },
+  "elc-generation": {
+    "seriesNames": [
+      "PRC_ELC_COA",
+      "PRC_ELC_GAS",
+      "PRC_ELC_GEO",
+      "PRC_ELC_HYD",
+      "PRC_ELC_MSW",
+      "PRC_ELC_NUC",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#080808",
+      "#C0C0C0",
+      "#E97369",
+      "#186BA1",
+      "#142458",
+      "#7D39C0",
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "PJ",
+    "maxY": 2227,
+    "minY": 0
+  },
+  "elc-capacity-new": {
+    "seriesNames": [
+      "PRC_ELC_GAS",
+      "PRC_ELC_GEO",
+      "PRC_ELC_HYD",
+      "PRC_ELC_MSW",
+      "PRC_ELC_NUC",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNF",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#C0C0C0",
+      "#E97369",
+      "#186BA1",
+      "#142458",
+      "#7D39C0",
+      "#EABE3B",
+      "#19ABDE",
+      "#1AC9E6"
+    ],
+    "unit": "GW",
+    "maxY": 104,
+    "minY": 0
+  },
+  "sys-nrg-import": {
+    "seriesNames": [
+      "ELCC"
+    ],
+    "colorScale": [
+      "#587BF9"
+    ],
+    "unit": "PJ",
+    "maxY": 82,
+    "minY": 0
+  },
+  "ind-iis-prod": {
+    "seriesNames": [
+      "IND_BF_BOF",
+      "IND_EAF"
+    ],
+    "colorScale": [
+      "#015439",
+      "#5B5058"
+    ],
+    "unit": "Mt",
+    "maxY": 69,
+    "minY": 0
+  },
+  "sys-costs-lumpy": {
+    "seriesNames": [
+      "LUMPINV"
+    ],
+    "colorScale": [
+      "#6BAD60"
+    ],
+    "unit": "MUSD",
+    "maxY": 130977,
+    "minY": 0
+  },
+  "sys-nrg-export": {
+    "seriesNames": [
+      "ELCC"
+    ],
+    "colorScale": [
+      "#587BF9"
+    ],
+    "unit": "PJ",
+    "maxY": 82,
+    "minY": 0
+  },
+  "elc-consumption-cadmium": {
+    "seriesNames": [
+      "PRC_ELC_SPV"
+    ],
+    "colorScale": [
+      "#EABE3B"
+    ],
+    "unit": "kt",
+    "maxY": 0,
+    "minY": 0
+  },
+  "elc-consumption-copper": {
+    "seriesNames": [
+      "PRC_ELC_GAS",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#C0C0C0",
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 285,
+    "minY": 0
+  },
+  "elc-consumption-galium": {
+    "seriesNames": [
+      "PRC_ELC_SPV"
+    ],
+    "colorScale": [
+      "#EABE3B"
+    ],
+    "unit": "kt",
+    "maxY": 0,
+    "minY": 0
+  },
+  "elc-consumption-nickel": {
+    "seriesNames": [
+      "PRC_ELC_GAS",
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#C0C0C0",
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 33,
+    "minY": 0
+  },
+  "elc-consumption-oth": {
+    "seriesNames": [
+      "PRC_ELC_SPV"
+    ],
+    "colorScale": [
+      "#EABE3B"
+    ],
+    "unit": "kt",
+    "maxY": 1,
+    "minY": 0
+  },
+  "elc-consumption-silicon": {
+    "seriesNames": [
+      "PRC_ELC_SPV"
+    ],
+    "colorScale": [
+      "#EABE3B"
+    ],
+    "unit": "kt",
+    "maxY": 167,
+    "minY": 0
+  },
+  "elc-consumption-tellurium": {
+    "seriesNames": [
+      "PRC_ELC_SPV"
+    ],
+    "colorScale": [
+      "#EABE3B"
+    ],
+    "unit": "kt",
+    "maxY": 0,
+    "minY": 0
+  },
+  "elc-consumption-zinc": {
+    "seriesNames": [
+      "PRC_ELC_SPV",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#EABE3B",
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 452,
+    "minY": 0
+  },
+  "elc-consumption-chromium": {
+    "seriesNames": [
+      "PRC_ELC_GAS",
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#C0C0C0",
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 39,
+    "minY": 0
+  },
+  "elc-consumption-dysprosium": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 1,
+    "minY": 0
+  },
+  "elc-consumption-manganese": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 64,
+    "minY": 0
+  },
+  "elc-consumption-molybdenum": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 8,
+    "minY": 0
+  },
+  "elc-consumption-neodymium": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 9,
+    "minY": 0
+  },
+  "elc-consumption-praseodymium": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "elc-consumption-rare-earth": {
+    "seriesNames": [
+      "PRC_ELC_WNO"
+    ],
+    "colorScale": [
+      "#1AC9E6"
+    ],
+    "unit": "kt",
+    "maxY": 1,
+    "minY": 0
+  },
+  "elc-consumption-cobalt": {
+    "seriesNames": [
+      "PRC_ELC_GAS"
+    ],
+    "colorScale": [
+      "#C0C0C0"
+    ],
+    "unit": "kt",
+    "maxY": 0,
+    "minY": 0
+  }
+}

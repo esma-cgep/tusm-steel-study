@@ -1,0 +1,12 @@
+{
+  "headerNavLinks": [
+    { "to": "about", "text": "About" },
+    { "to": "scenarios", "text": "Scenarios" },
+    { "to": "results", "text": "Results" }
+  ],
+  "chartBarWidth": 40,
+  "chartPeriods": [2020, 2025, 2030, 2035, 2040, 2045, 2050],
+  "chartStackbarOffset": 22,
+  "chartXDomainPadding": 30,
+  "fixedDomain": true
+}
