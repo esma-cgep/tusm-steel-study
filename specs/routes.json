@@ -44,7 +44,8 @@
     "path": "iis",
     "charts": [
       "ind-iis-cap",
-      "ind-iis-prod"
+      "ind-iis-prod",
+	  "ind-iis-emi-co2"
     ]
   }
 ]

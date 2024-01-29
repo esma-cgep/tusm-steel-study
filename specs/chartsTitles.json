@@ -24,6 +24,7 @@
   "elc-price-electricity-mean": "Electricity Price (Mean)",
   "elc-price-electricity-min": "Electricity Price (Min)",
   "ind-iis-cap": "Industry Capacity: Iron and Steel",
+  "ind-iis-emi-co2": "Carbon Dioxide Emissions",
   "ind-iis-prod": "Industry Output: Iron and Steel",
   "sys-costs-annual": "Annualised System Costs by Type",
   "sys-costs-lumpy": "Lump Sum Investment Cost",
