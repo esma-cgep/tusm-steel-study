@@ -44,7 +44,10 @@
     "path": "iis",
     "charts": [
       "ind-iis-cap",
+	  "ind-iis-cap-new",
+	  "ind-iis-price",
       "ind-iis-prod",
+	  "ind-iis-imp-net",
 	  "ind-iis-emi-co2"
     ]
   }

@@ -11,6 +11,8 @@
   "ELE": "Electricity only",
   "ENV_CO2_ELC": "Electricity generation",
   "GEO": "Geothermal",
+  "IIS": "Iron and steel",
+  "IMPIIS": "IIS import (net)",
   "IND_BF_BOF": "BF-BOF",
   "IND_DRI_EAF": "DRI-EAF",
   "IND_EAF": "EAF",

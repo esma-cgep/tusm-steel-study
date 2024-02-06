@@ -1,18 +1,6 @@
 [
   {
-    "name": "base_ts1",
-    "variants": [{ "name": "base_ts1", "specs": null }]
-  },
-  {
-    "name": "cb_ts1",
-    "variants": [{ "name": "cb_ts1", "specs": null }]
-  },
-  {
-    "name": "nze35_ts1",
-    "variants": [{ "name": "nze35_ts1", "specs": null }]
-  },
-  {
-    "name": "nze50_ts1",
-    "variants": [{ "name": "nze50_ts1", "specs": null }]
+    "name": "base_ts40",
+    "variants": [{ "name": "base_ts40", "specs": null }]
   }
 ]
