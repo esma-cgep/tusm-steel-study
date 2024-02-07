@@ -78,7 +78,7 @@
       "#587BF9"
     ],
     "unit": "MUSD/PJ",
-    "maxY": 3277,
+    "maxY": 2339,
     "minY": 0
   },
   "elc-price-electricity-mean": {
@@ -89,7 +89,7 @@
       "#587BF9"
     ],
     "unit": "MUSD/PJ",
-    "maxY": 3133,
+    "maxY": 64,
     "minY": 0
   },
   "elc-price-electricity-min": {
@@ -100,7 +100,7 @@
       "#587BF9"
     ],
     "unit": "MUSD/PJ",
-    "maxY": 3067,
+    "maxY": 13,
     "minY": 0
   },
   "sys-nrg-export": {
@@ -157,7 +157,7 @@
       "#8AB590"
     ],
     "unit": "USD/t",
-    "maxY": 10340,
+    "maxY": 211,
     "minY": 0
   },
   "ind-iis-imp-net": {
