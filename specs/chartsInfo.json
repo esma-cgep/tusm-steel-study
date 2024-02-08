@@ -6,6 +6,7 @@
       "MSW",
       "NGA",
       "NUC",
+      "RFO",
       "SPV",
       "WAT",
       "WNO"
@@ -16,12 +17,13 @@
       "#142458",
       "#C0C0C0",
       "#7D39C0",
+      "#5F5F5F",
       "#EABE3B",
       "#186BA1",
       "#1AC9E6"
     ],
     "unit": "PJ",
-    "maxY": 50528,
+    "maxY": 50259,
     "minY": 0
   },
   "sys-primary-energy-demand": {
@@ -32,6 +34,7 @@
       "MSW",
       "NGA",
       "NUC",
+      "RFO",
       "SPV",
       "WAT",
       "WNO"
@@ -43,13 +46,14 @@
       "#142458",
       "#C0C0C0",
       "#7D39C0",
+      "#5F5F5F",
       "#EABE3B",
       "#186BA1",
       "#1AC9E6"
     ],
     "unit": "PJ",
-    "maxY": 50900,
-    "minY": -291
+    "maxY": 50633,
+    "minY": -398
   },
   "sys-costs-annual": {
     "seriesNames": [
@@ -67,8 +71,8 @@
       "#274177"
     ],
     "unit": "MUSD",
-    "maxY": 286379,
-    "minY": -1971
+    "maxY": 305197,
+    "minY": 0
   },
   "elc-price-electricity-max": {
     "seriesNames": [
@@ -111,7 +115,7 @@
       "#587BF9"
     ],
     "unit": "PJ",
-    "maxY": 291,
+    "maxY": 398,
     "minY": 0
   },
   "sys-nrg-import": {
@@ -135,7 +139,7 @@
       "#83BE87"
     ],
     "unit": "PJ",
-    "maxY": 13858,
+    "maxY": 13920,
     "minY": 0
   },
   "sys-emissions-co2": {
@@ -146,7 +150,7 @@
       "#92B45C"
     ],
     "unit": "kt",
-    "maxY": 3041365,
+    "maxY": 3060691,
     "minY": 0
   },
   "ind-iis-price": {
@@ -157,7 +161,7 @@
       "#8AB590"
     ],
     "unit": "USD/t",
-    "maxY": 211,
+    "maxY": 563,
     "minY": 0
   },
   "ind-iis-imp-net": {
@@ -183,57 +187,37 @@
       "#5B5058"
     ],
     "unit": "Mt/a",
-    "maxY": 259,
-    "minY": 0
-  },
-  "ind-iis-cap-new": {
-    "seriesNames": [
-      "IND_BF_BOF",
-      "IND_EAF"
-    ],
-    "colorScale": [
-      "#015439",
-      "#5B5058"
-    ],
-    "unit": "Mt/a",
-    "maxY": 63,
+    "maxY": 121,
     "minY": 0
   },
   "ind-iis-emi-co2": {
     "seriesNames": [
       "IND_BF_BOF",
+      "IND_DRI_EAF",
       "IND_EAF"
     ],
     "colorScale": [
       "#015439",
+      "#E36A19",
       "#5B5058"
     ],
     "unit": "kt",
-    "maxY": 178136,
+    "maxY": 151902,
     "minY": 0
   },
   "ind-iis-prod": {
     "seriesNames": [
       "IND_BF_BOF",
+      "IND_DRI_EAF",
       "IND_EAF"
     ],
     "colorScale": [
       "#015439",
+      "#E36A19",
       "#5B5058"
     ],
     "unit": "Mt",
     "maxY": 87,
-    "minY": 0
-  },
-  "sys-costs-lumpy": {
-    "seriesNames": [
-      "LUMPINV"
-    ],
-    "colorScale": [
-      "#6BAD60"
-    ],
-    "unit": "MUSD",
-    "maxY": 1348748,
     "minY": 0
   },
   "elc-capacity": {
@@ -260,7 +244,7 @@
       "#1AC9E6"
     ],
     "unit": "GW",
-    "maxY": 1699,
+    "maxY": 1792,
     "minY": 0
   },
   "elc-consumption": {
@@ -285,7 +269,7 @@
       "#1AC9E6"
     ],
     "unit": "PJ",
-    "maxY": 49399,
+    "maxY": 49631,
     "minY": 0
   },
   "elc-generation": {
@@ -306,7 +290,7 @@
       "#7D39C0"
     ],
     "unit": "PJ",
-    "maxY": 13608,
+    "maxY": 13670,
     "minY": 0
   },
   "elc-capacity-new": {
@@ -333,7 +317,18 @@
       "#1AC9E6"
     ],
     "unit": "GW",
-    "maxY": 533,
+    "maxY": 539,
+    "minY": 0
+  },
+  "sys-costs-lumpy": {
+    "seriesNames": [
+      "LUMPINV"
+    ],
+    "colorScale": [
+      "#6BAD60"
+    ],
+    "unit": "MUSD",
+    "maxY": 1373157,
     "minY": 0
   },
   "elc-consumption-chromium": {
@@ -387,7 +382,7 @@
       "#1AC9E6"
     ],
     "unit": "kt",
-    "maxY": 102,
+    "maxY": 101,
     "minY": 0
   },
   "elc-consumption-cadmium": {
@@ -431,7 +426,7 @@
       "#EABE3B"
     ],
     "unit": "kt",
-    "maxY": 103,
+    "maxY": 106,
     "minY": 0
   },
   "elc-consumption-tellurium": {
@@ -455,7 +450,7 @@
       "#1AC9E6"
     ],
     "unit": "kt",
-    "maxY": 1375,
+    "maxY": 1372,
     "minY": 0
   },
   "elc-consumption-dysprosium": {
@@ -477,7 +472,7 @@
       "#1AC9E6"
     ],
     "unit": "kt",
-    "maxY": 195,
+    "maxY": 194,
     "minY": 0
   },
   "elc-consumption-molybdenum": {
@@ -522,6 +517,19 @@
     ],
     "unit": "kt",
     "maxY": 3,
+    "minY": 0
+  },
+  "ind-iis-cap-new": {
+    "seriesNames": [
+      "IND_BF_BOF",
+      "IND_EAF"
+    ],
+    "colorScale": [
+      "#015439",
+      "#5B5058"
+    ],
+    "unit": "Mt/a",
+    "maxY": 14,
     "minY": 0
   }
 }

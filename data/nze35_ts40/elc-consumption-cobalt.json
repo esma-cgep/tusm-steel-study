@@ -1,0 +1,14 @@
+{
+  "name": "nze35_ts40",
+  "data": [
+    {
+      "seriesName": "PRC_ELC_GAS",
+      "seriesValues": [
+        [
+          2021,
+          0.07220303753553108
+        ]
+      ]
+    }
+  ]
+}
